@@ -1,3 +1,12 @@
+/*
+* File: Solution.java
+* Author: Csorba Péter
+* Copyright: 2026, Csorba Péter
+* Group: Szoft I/N
+* Date: 2026-04-24
+* Github: https://github.com/Gunkhu
+* Licenc: MIT
+*/
 package com.example;
 
 import java.util.Scanner;
@@ -19,7 +28,7 @@ public class Solution {
         String c_sideStr = sc.nextLine();
         double c_side = Double.parseDouble(c_sideStr);
 
-        
+
         double volume = Ellipszoid.calcVolume(a_side, b_side, c_side);
         System.out.println(volume);
 
