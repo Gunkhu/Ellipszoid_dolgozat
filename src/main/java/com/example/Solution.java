@@ -17,16 +17,12 @@ public class Solution {
 
 
         System.out.print("Adja meg az |A| oldalt: ");
-        String a_sideStr = sc.nextLine();
-        double a_side = Double.parseDouble(a_sideStr);
-
+        double a_side = sc.nextDouble();
         System.out.print("Adja meg az |B| oldalt: ");
-        String b_sideStr = sc.nextLine();
-        double b_side = Double.parseDouble(b_sideStr);
+        double b_side = sc.nextDouble();
 
         System.out.print("Adja meg az |C| oldalt: ");
-        String c_sideStr = sc.nextLine();
-        double c_side = Double.parseDouble(c_sideStr);
+        double c_side = sc.nextDouble();
 
 
         double volume = Ellipszoid.calcVolume(a_side, b_side, c_side);
